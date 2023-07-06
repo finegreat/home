@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lewis J | Software Engineer</title>
+
+    <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/crt.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ====  REMIXICON CDN ==== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ==== HEADER ==== -->
+    <header class="container header">
+      <!-- ==== NAVBAR ==== -->
+      <nav class="nav">
+        <div class="logo">
+          <a href="https://github.com/finegreat/"
+            ><img src="./img/github.png" alt="University Github Profile link."
+          /></a>
+          <a href="https://www.linkedin.com/in/lewis-chappell-450811243/"
+            ><img
+              src="./img/linkedin.png"
+              alt="University LinkedIn Profile link."
+          /></a>
+        </div>
+
+        <div class="nav_menu crt" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item" id="about">
+              <a href="#" class="nav_menu_link">/about</a>
+            </li>
+            <!-- <li class="nav_menu_item" id="contact">
+              <a class="nav_menu_link">/contact</a>
+            </li> -->
+            <li class="nav_menu_item" id="project">
+              <a href="#" class="nav_menu_link">/projects</a>
+            </li>
+            <li class="nav_menu_item" id="personal">
+              <a href="#" class="nav_menu_link">/personal</a>
+            </li>
+            <li class="nav_menu_item" id="skills">
+              <a href="#" class="nav_menu_link">/skills</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading crt">
+              <span>lewis@james:~#</span> i'm Lewis, a software engineering
+              student based in Sheffield.<span class="cursor">|</span>
+            </h1>
+            <p class="info-text">
+              always learning and expanding my skillset, i love taking on new
+              projects and familiarising myself with new technologies
+            </p>
+            <p class="info-text">
+              my skills lie in front-end design, 3D work and game dev, web
+              scraping and database design.
+            </p>
+            <p class="info-text">
+              when i'm not buried in my screen, i am often reading, gaming, or
+              lost in the peaks...
+            </p>
+            <p class="info-text">read more about me, or contact me below:</p>
+
+            <div class="btn_wrapper">
+              <button class="btn view_more_btn" id="contact">
+                Contact me! <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </div>
+          <div class="grid-item-2 crt">
+            <div class="team_img_wrapper">
+              <img src="./img/laptop wave.png" alt="team-img" />
+            </div>
+            <div id="flavour-text"></div>
+            <p class="splash-text">
+              2nd Year Student - Software Engineering BEng
+              <br />
+              Sheffield Hallam University
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="grid-cols-3">
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span>Front End </span>
+              <p>
+                With skills in JS, Laravel, and Vue.js, I am a confident
+                front-end designer, and my skills are only improving.
+              </p>
+            </div>
+          </div>
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span>Back End</span>
+              <p>
+                My backend skills lie in PHP, SQL, and MongoDB, I am also a
+                capable network engineer with good technical skills.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span>Side Projects & Hobbies</span>
+              <p>
+                In my free time, I like to work on game projects, web scrapers,
+                and automation using Unity3D, Blender, PHP and Python.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper" id="aboutSection">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading crt">
+              <span>about-me:$<span class="cursor">|</span></span>
+              <br />
+            </h1>
+            <p class="info-text">
+              I'm a motivated aspiring software engineer, seeking to push the
+              boundaries and continue furthering my knowledge in the field. I
+              began programming and designing over a decade ago, and I take
+              great pride in the projects I produce and my desire to advance my
+              skillset.
+            </p>
+            <p class="info-text">
+              I am proficient when it comes to front and back end technologies,
+              3D work and game design, and cybersecurity and networking.
+            </p>
+
+            <!-- <div class="btn_wrapper">
+              <button class="btn view_more_btn">
+                view all pages <i class="ri-arrow-right-line"></i>
+              </button>
+
+              <button class="btn documentation_btn">documentation</button>
+            </div> -->
+          </div>
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img src="./img/studying.png" alt="team-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="wrapper" id="projectSection">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+          <div class="grid-cols-2">
+            <div class="grid-item-1">
+              <h1 class="main-heading crt">
+                <span>my-projects:$<span class="cursor">|</span></span>
+                <br />
+              </h1>
+              <h1 class="projTitle">
+                <a href="#" id="game">Roguelike - JS (Click to play!)</a>
+              </h1>
+              <p class="info-text">
+                Made in JS, this is an improvement of a CLI roguelike made in
+                C#. Features random map generation with a flood-fill algorithm,
+                unique enemy behaviour to keep gameplay engaging, and relatively
+                acceptable pixel art. Press Space to start, and WASD to move.
+              </p>
+              <h1 class="projTitle">
+                <a href="https://www.mycelium-network.com/" target="_blank"
+                  >Carbon Accountability - PHP Laravel</a
+                >
+              </h1>
+              <p class="info-text">
+                Made with PHP and the Laravel framework, I worked according to
+                Agile Scrum methodology to develop frontend pages, web scraping
+                technology to find targeted information for the organisation,
+                and social media API integration to allow the client to
+                interface with their Twitter and Mastodon accounts with any
+                relevant collected information.
+              </p>
+              <h1 class="projTitle">
+                <a href="#" target="_blank">Crown Thief - Unity3D</a>
+              </h1>
+              <p class="info-text">
+                Using Unity3D for my game dev module, this is a first-person
+                stealth game with enemy FOV and patrol routes, an inventory
+                system that lists collected loot, and multiple levels to
+                traverse through and hide from enemies in! A fully realised
+                project made in collaboration with local artist
+                <a href="https://www.instagram.com/mintybones/">@mintybones</a>.
+              </p>
+            </div>
+          </div>
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img src="img/JSRLscreen.png" alt="JSRLScreenshot-img" />
+              <img src="./img/CTscreen.png" alt="CTScreenshot-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="hidden">
+        <div id="contact-content">
+          <h1 class="modal-head">contact-me:$<span class="cursor">|</span></h1>
+          <div class="contact-form-container">
+            <div class="contact-form">
+              <form action="https://formspree.io/f/mknadpbd" method="POST">
+                <div class="form-control">
+                  <label for="name">name:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="sender-name"
+                    placeholder="Your Name"
+                    class="input-field"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="email">email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="sender-email"
+                    placeholder="Your Email"
+                    class="input-field"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="message">message:</label>
+                  <textarea
+                    id="message"
+                    cols="60"
+                    rows="10"
+                    placeholder="Enter your message here, and I will get to it as soon as possible!"
+                    name="message"
+                    class="input-field"
+                    required
+                  ></textarea>
+                </div>
+                <input
+                  type="submit"
+                  value="Submit"
+                  id="submit-btn"
+                  class="submit-btn"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div id="game-content"></div>
+      </div>
+    </section>
+
+    <footer></footer>
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="js/script.js" defer></script>
+    <!-- <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script> -->
+    <script src="js/winbox.bundle.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
