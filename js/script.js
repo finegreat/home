@@ -27,6 +27,17 @@ projectLink.addEventListener("click", function (event) {
   projectSection.scrollIntoView({ behavior: "smooth" });
 });
 
+// Get the Skills link element
+const skillsLink = document.getElementById("skills");
+
+skillsLink.addEventListener("click", function (event) {
+  event.preventDefault(); // Prevent the default link behavior
+
+  const skillsSection = document.getElementById("skillsSection");
+
+  skillsSection.scrollIntoView({ behavior: "smooth" });
+});
+
 // ==== SHOW MENU ==== //
 ToggleBtnId.addEventListener("click", () => {
   navId.classList.add("show");
