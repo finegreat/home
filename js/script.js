@@ -2,6 +2,16 @@ const navId = document.getElementById("nav_menu"),
   ToggleBtnId = document.getElementById("toggle_btn"),
   CloseBtnId = document.getElementById("close_btn");
 
+// ==== SHOW MENU ==== //
+ToggleBtnId.addEventListener("click", () => {
+  navId.classList.add("show");
+});
+
+// ==== HIDE MENU ==== //
+CloseBtnId.addEventListener("click", () => {
+  navId.classList.remove("show");
+});
+
 // Get the About link element
 const aboutLink = document.getElementById("about");
 
@@ -36,16 +46,6 @@ skillsLink.addEventListener("click", function (event) {
   const skillsSection = document.getElementById("skillsSection");
 
   skillsSection.scrollIntoView({ behavior: "smooth" });
-});
-
-// ==== SHOW MENU ==== //
-ToggleBtnId.addEventListener("click", () => {
-  navId.classList.add("show");
-});
-
-// ==== HIDE MENU ==== //
-CloseBtnId.addEventListener("click", () => {
-  navId.classList.remove("show");
 });
 
 // ==== Animate on Scroll Initialize  ==== //

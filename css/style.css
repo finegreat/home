@@ -16,6 +16,7 @@
 /* ==== CSS VARIABLES ==== */
 :root {
   --primary-color: #00aa00;
+  --secondary-color: #006900;
   --link-color: #00ff66;
   --btn-hover-color: #2b50c7;
   --lg-heading: #0f6;
@@ -128,7 +129,7 @@ a {
   font-weight: 300;
   font-size: 40px;
   line-height: 55px;
-  color: var(--lg-heading);
+  color: var(--secondary-color);
 }
 .main-heading span {
   color: var(--primary-color);
