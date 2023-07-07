@@ -9,6 +9,10 @@
     <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
+    <!--  ====  VANTA.JS BACKGROUND ====  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.dots.min.js"></script>
+
     <!-- ==== STYLE.CSS ==== -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/crt.css" />
@@ -343,5 +347,18 @@
     <!-- <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script> -->
     <script src="js/winbox.bundle.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      VANTA.DOTS({
+        el: "body",
+        mouseControls: false,
+        touchControls: false,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        showLines: false,
+      });
+    </script>
   </body>
 </html>
