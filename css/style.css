@@ -37,6 +37,15 @@ a {
   text-decoration: none;
   color: var(--lg-heading);
 }
+
+/* ==== VANTA.JS  ====  */
+#vanta-js {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -100;
+}
+
 /* ==== CONTAINER ==== */
 .container {
   width: 100%;
