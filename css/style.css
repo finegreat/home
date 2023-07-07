@@ -119,6 +119,7 @@ a {
   font-weight: 300;
   font-size: 40px;
   line-height: 55px;
+  color: var(--lg-heading);
 }
 .main-heading span {
   color: var(--primary-color);
