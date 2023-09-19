@@ -78,7 +78,7 @@ gsap.from(".toggle_btn", {
 gsap.from(".main-heading", {
   opacity: 0,
   y: 30,
-  delay: 2.4,
+  delay: 3,
   duration: 1,
 });
 // ==== INFO TEXT ==== //
@@ -92,7 +92,7 @@ gsap.from(".info-text", {
 gsap.from(".splash-text", {
   opacity: 0,
   y: 20,
-  delay: 3.2,
+  delay: 2.2,
   duration: 1,
 });
 // ==== SPLASH TEXT TYPED ==== //
@@ -113,6 +113,6 @@ gsap.from(".btn_wrapper", {
 gsap.from(".team_img_wrapper img", {
   opacity: 0,
   y: 20,
-  delay: 3,
+  delay: 2,
   duration: 1,
 });
