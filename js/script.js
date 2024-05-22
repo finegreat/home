@@ -78,28 +78,28 @@ gsap.from(".toggle_btn", {
 gsap.from(".main-heading", {
   opacity: 0,
   y: 30,
-  delay: 3,
+  delay: 1.6,
   duration: 1,
 });
 // ==== INFO TEXT ==== //
 gsap.from(".info-text", {
   opacity: 0,
   y: 20,
-  delay: 2.8,
+  delay: 1.6,
   duration: 1,
 });
 // ==== SPLASH TEXT ==== //
 gsap.from(".splash-text", {
   opacity: 0,
   y: 20,
-  delay: 2.2,
+  delay: 1.7,
   duration: 1,
 });
 // ==== SPLASH TEXT TYPED ==== //
 gsap.from("#flavour-text", {
   opacity: 0,
   y: 20,
-  delay: 3.2,
+  delay: 1.7,
   duration: 1,
 });
 // ==== CTA BUTTONS ==== //

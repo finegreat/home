@@ -140,7 +140,6 @@ a {
   color: var(--primary-color);
 }
 #flavour-text {
-  margin-top: 1.5rem;
   font-size: 19px;
   line-height: 28px;
   color: var(--primary-color);
@@ -217,7 +216,6 @@ button:hover:after {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  padding-top: 2rem;
 }
 .grid-cols-3 {
   width: 100%;
@@ -444,14 +442,16 @@ footer {
   }
   .grid-cols-2 {
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    display: flex;
+    flex-direction: column;
   }
   .grid-item-1 {
-    order: 2;
+    order: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 2.5rem;
+
   }
   .main-heading {
     font-size: 32px;
@@ -470,7 +470,7 @@ footer {
     justify-content: center;
   }
   .grid-item-2 {
-    order: 1;
+    order: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
