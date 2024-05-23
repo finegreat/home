@@ -107,6 +107,11 @@ a {
   right: 3% !important;
 }
 /* ====  WRAPPER ==== */
+
+#cards {
+  padding-top: none;
+}
+
 .wrapper {
   width: 100%;
   padding-left: 1.7rem;
