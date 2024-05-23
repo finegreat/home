@@ -43,7 +43,7 @@ const skillsLink = document.getElementById("skills");
 skillsLink.addEventListener("click", function (event) {
   event.preventDefault(); // Prevent the default link behavior
 
-  const skillsSection = document.getElementById("skillsSection");
+  const skillsSection = document.getElementById("projectSection");
 
   skillsSection.scrollIntoView({ behavior: "smooth" });
 });

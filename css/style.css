@@ -407,7 +407,7 @@ footer {
     position: absolute;
     right: 10%;
     font-size: 25px;
-    color: #50689e;
+    color: #000;
   }
   .close_btn:hover {
     color: #000;
